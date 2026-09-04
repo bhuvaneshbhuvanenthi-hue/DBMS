@@ -1,19 +1,4 @@
-AIM: 
-To execute and verify the SQL commands for simple queries, nested queries and sub queries for 
-student tables. 
-ALGORITHM: 
-STEP 1: Start the program 
-STEP 2: Create tables for student. For example, create tables like Students, Courses, and 
-Enrollments. 
-• Students (StudentID, Name, Age) 
-• Courses (CourseID, CourseName) 
-• Enrollments (StudentID, CourseID) 
-STEP 3: Insert sample data into the tables to work 
-STEP 4: Implement various simple queries 
-STEP 5 : Write Nested Queries 
-STEP 6 : Execute Sub Queries. 
- 
-Table Creation 
+ Table Creation 
 1. Create table Student(StudentID int PRIMARY KEY, Name varchar(30), Age int); 
 2. Create table Courses (CourseID int PRIMARY KEY, CourseName varchar(20)); 
 3. Create table Enrollments (StudentID int REFERENCES Student(StudentID), CourseID int 
@@ -84,6 +69,4 @@ Student);
 |--------- | 
 | Bob | 
 | Charlie | 
-RESULT: 
-These examples demonstrate how to implement simple queries, nested queries, and subqueries in 
-a DBMS using SQL. 
+
