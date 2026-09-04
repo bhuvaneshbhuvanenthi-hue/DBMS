@@ -1,14 +1,4 @@
-AIM: 
-To execute and verify the SQL commands for views, sequences and synonyms. 
-ALGORITHM: 
-STEP 1: Start 
-STEP 2: Create Student and Course tables. 
-STEP 3: Insert values into the table. 
-STEP 4: Create a view from above created table. 
-STEP 5: Execute commands like insert ,update, delete and replace and extract information 
-from views. 
-STEP 6: Create Index for student table 
-STEP 7: Stop 
+
 Create the students Table and Insert Sample Data 
 • CREATE SEQUENCE student_seq START WITH 1 INCREMENT BY 1; 
 • CREATE TABLE students (student_id INT PRIMARY KEY, student_name 
@@ -45,12 +35,4 @@ student_id
 | Diana Prince 
 Create an Index on the student_email Column 
 CREATE INDEX idx_student_email ON students (student_email); 
-RESULT: 
-ACADEMIC YEAR: 2026-2027 
-| student_email 
-| alice@example.com 
-| new_bob@example.com 
-| diana@example.com 
-Thus the view for student table has been created and implement various data manipulation 
-statement has been executed and index for student table also create and verified for large number 
-of records. 
+
