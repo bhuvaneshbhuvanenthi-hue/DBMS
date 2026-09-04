@@ -1,27 +1,4 @@
-AIM: 
-To execute and verify the SQL commands for Join queries. 
-ALGORITHM: 
-STEP 1: Start the program 
-STEP 2: Create tables for student. For example, create tables like Students, Courses, and 
-Enrollments. 
-• Students (StudentID, Name, Age) 
-• Courses (CourseID, CourseName) 
-• Enrollments (EnrollmentID, StudentID, CourseID, Grade) 
-STEP 3: Insert sample data into the tables to work 
-STEP 4: (INNER) JOIN: Returns records that have matching values in both tables 
-STEP 5: LEFT (OUTER) JOIN: Return all records from the left table, and the matched 
-recordsfrom the right table 
-STEP 6: RIGHT (OUTER) JOIN: Return all records from the right table, and the 
-matchedrecords from the left table 
-STEP 7: FULL (OUTER) JOIN: Return all records when there is a match in either left or 
-righttable 
-STEP 8: Stop the program 
-Table Creation 
-4. Create table Student (StudentID int, Name varchar(30), Age int); 
-5. Create table Courses (CourseID int, CourseName varchar(20)); 
-6. Create table Enrollments (EnrollmentID int, StudentID int, CourseID int, Grade 
-varchar(5)); 
- 
+
 Insert values 
 • Insert into Student values(1,’Alice’, 20); 
 • Insert into Courses values(101,’Database Management’); 
@@ -76,8 +53,4 @@ StudentID | Name | Age | CourseID | CourseName | Grade
 1 | Alice | 20 | 2 | English | B 
 3 | Charlie | 21 | 3 | History | B+ 
 2 | Bob | 22 | 1 | Math | A- 
-3 | Charlie | 21 | 2 | English | A 
-RESULT: 
-These examples demonstrate how SQL join queries can be used to retrieve data from multiple 
-related tables (Students, Courses, Enrollments) based on different types of joins (INNER JOIN, 
-LEFT JOIN, RIGHT JOIN) 
+3 | Charlie | 21 | 2 | English | A
